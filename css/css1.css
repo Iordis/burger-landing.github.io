@@ -1,0 +1,108 @@
+
+
+
+
+/*content.scss*/
+.content {
+  margin: 0 auto;
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*logo.scss*/
+.logo {
+  width: 95px;
+  height: 75px;
+  display: inline-block;
+}
+.logo img {
+  width: 100%;
+}
+
+.nav {
+  display: inline-block;
+}
+.nav__list {
+  padding: 0;
+  margin: 0;
+}
+.nav__item {
+  display: inline-block;
+}
+.nav__item--special {
+  background: #e45028;
+  border-radius: 5px;
+  font-family: Ubuntu-Medium;
+
+}
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  display: block;
+  font-size: 13px;
+  font-family: Ubuntu-Medium;
+}
+
+.best {
+  background-image: url("http://loftschool.testicola.com/works/landing/step1/img/bg/best.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.menu 
+{
+  background-image: url("../img/bg-3.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.team
+{
+  background-image: url("../img/team.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.ingridients
+{
+  background-image: url("../img/akkordeon-first.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.form
+{
+  background-image: url("../img/order.jpg");
+  background-size: cover;
+  text-align: center;
+}
+ul {
+    padding: 0;
+    margin: 0; 
+    list-style-type: none;
+    }
+
+.review__list {
+height: 100%;
+}
+
+.review__item {
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative; 
+    filter: grayscale(100%);
+}
+
+.review__photo {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    }
+

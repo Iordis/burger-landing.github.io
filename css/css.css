@@ -1,0 +1,177 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+	height: 100vh; 
+	min-height: 650px;
+    width: 100%;
+}
+
+.we {
+	background: url(../img/hero-bg.jpg) center center no-repeat;
+    background-size: 100% cover;
+    position: relative;
+}
+
+.best {
+	background: url(../img/bg.png) center center no-repeat;
+	   background-size: 100% cover;
+    position: relative;
+}
+
+.burgers  {
+	background: url(../img/bg-3.png) center center no-repeat;
+	   background-size: 100%;
+    position: relative;
+}
+
+.team {
+	background: url(../img/team.png) center center no-repeat;
+	   background-size: 100%;
+    position: relative;
+}
+.menu {
+
+	background: url(../img/akkordeon-first.png) center center no-repeat;
+	   background-size: 100%;
+    position: relative;
+}
+
+.form {
+background: url(../img/order.jpg) center center no-repeat;
+	   background-size: 100%;
+    position: relative;
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0; 
+    list-style-type: none;
+    }
+
+.review__list {
+height: 100%;
+}
+
+.review__item {
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative; 
+    filter: grayscale(100%);
+}
+
+.review__photo {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    }
+
+.container__footer {
+    min-height: 50px;
+    background: #000;
+}
+
+
+/* 
+.burger__photo {
+    position: relative;
+    top: 121px;
+    margin-left: 96px;
+}
+ */
+
+@font-face {
+    font-family: 'Gagalin-Regular'; /* Гарнитура шрифта */
+    src: url(../Gagalin/Gagalin-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+
+ 
+
+   .title {
+    float: right;
+    display: inline-block;
+    position: relative;
+    left: -300px;
+    top: -100px; 
+    }
+
+    .title {
+
+    font-size: 72px;
+       font-family: 'Gagalin-Regular';
+    color: #f9b43b;
+   }
+
+    @font-face {
+    font-family: 'Lifehack-Medium'; /* Гарнитура шрифта */
+    src: url(../Gagalin/Lifehack-Medium.otf); /* Путь к файлу со шрифтом */
+   }
+
+  /* .desk{
+
+    font-size: 65px;
+       font-family: 'Lifehack-Medium';
+    color: #ffffff;
+    float: right;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: -100px; 
+   }
+    */
+
+.we__left {
+  float: left;
+  width: 50%;
+}
+
+.we__right {
+  float: left;
+  width: 50%;
+  padding-top: 115px;
+}
+
+.desc {
+  font-size: 65px;
+  color: white;
+  font-family: 'Lifehack-Medium';
+  text-transform: lowercase;
+  line-height: 1em;
+}
+
+
+ .burger-1 {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+  left: 50%;
+  top: 300px;
+}
+
+/* */
+
+.content {
+    position: relative; 
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.maincontent {
+    min-width: 940px;
+}
+
+.header__logo {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}

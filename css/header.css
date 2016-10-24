@@ -1,0 +1,42 @@
+/*header.scss*/
+.header {
+  background: url("../img/hero-bg.jpg");
+  background-size: cover;
+}
+.header__promo {
+  width: 100%;
+}
+.header__promo-image {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+.header__promo-image img {
+  width: 100%;
+}
+.header__promo-text {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+.header__promo-title {
+  margin-top: 100px;
+}
+.header__promo-description {
+  font-size: 30px;
+  font-family: 'Lifehack-Medium';
+  font-style: italic;
+  color: #fff;
+}
+
+.dots >li:after {
+  content: "";
+   display: block;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+
+}
